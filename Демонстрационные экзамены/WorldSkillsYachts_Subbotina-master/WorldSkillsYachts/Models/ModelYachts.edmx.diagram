@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bb8f0cdc19e8416a9d8cce3c0aebbf59" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Accessory" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Boat" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Contract" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Customer" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Detail" Width="1.5" PointX="11.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Fit" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Invoice" Width="1.5" PointX="10.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Order" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Partner" Width="1.5" PointX="1.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Salesperson" Width="1.5" PointX="3.75" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Accessory_Partner" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Detail_Accessory" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Fit_Accessory" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Fit_Boats" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Order_Boats" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Contract_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Invoice_Contract" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Detail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_Order_Salesperson" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.Role" Width="1.5" PointX="8.375" PointY="9.125" />
+        <EntityTypeShape EntityType="WorldSkillsYachtsModel.User" Width="3.875" PointX="10.625" PointY="8.875" />
+        <AssociationConnector Association="WorldSkillsYachtsModel.FK_User_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
