@@ -1,0 +1,122 @@
+﻿<Page
+    x:Class="Popryzhenok_Subbotina.PageAddAgent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="PageAddAgent"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            FontSize="16"
+            Text="Данные агента" />
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock Text="Название: " />
+            <TextBox x:Name="tbTitle" Text="{Binding Title}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <TextBlock Text="Тип: " />
+            <ComboBox
+                x:Name="cbType"
+                DisplayMemberPath="Title"
+                SelectedItem="{Binding AgentType}" />
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="0">
+            <TextBlock Text="Адрес: " />
+            <TextBox x:Name="tbAddress" Text="{Binding Address}" />
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="0">
+            <TextBlock Text="ИНН: " />
+            <TextBox x:Name="tbINN" Text="{Binding INN}" />
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="0">
+            <TextBlock Text="КПП: " />
+            <TextBox x:Name="tbKPP" Text="{Binding KPP}" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="Директор: " />
+            <TextBox x:Name="tbDirector" Text="{Binding DirectorName}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <TextBlock Text="Телефон: " />
+            <TextBox x:Name="tbPhone" Text="{Binding Phone}" />
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <TextBlock Text="Email: " />
+            <TextBox x:Name="tbEmail" Text="{Binding Email}" />
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.Column="1">
+            <TextBlock Text="Логотип:" />
+            <Grid Margin="0,-5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="tbLogo"
+                    MinWidth="100"
+                    FontStyle="Italic"
+                    Foreground="#FF999999"
+                    IsReadOnly="True"
+                    Text="{Binding LogoAgent}" />
+                <Button
+                    x:Name="buttonLogo"
+                    Grid.Column="1"
+                    Click="buttonLogo_Click"
+                    Content="Просмотр..." />
+                <Image
+                    x:Name="photo"
+                    Grid.Column="2"
+                    Width="50"
+                    Height="50"
+                    Source="../../Images/picture.png" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="1">
+            <TextBlock Text="Приоритет:" />
+            <TextBox x:Name="tbPriority" Text="{Binding Priority}" />
+        </StackPanel>
+        <StackPanel
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal">
+            <Button
+                x:Name="btnSave"
+                Click="btnSave_Click"
+                Content="Сохранить" />
+            <Button
+                x:Name="btnCancel"
+                Click="btnCancel_Click"
+                Content="Отмена" />
+            <Button
+                x:Name="btnDelete"
+                Background="#F9969E"
+                Click="btnDelete_Click"
+                Content="Удалить" />
+        </StackPanel>
+    </Grid>
+</Page>
