@@ -11,7 +11,7 @@ https://www.evernote.com/shard/s300/sh/64fac59b-edcc-2cc9-a56e-67ba66fd057e/2aab
 
 
 ## 2 Подготовка по чистому С#
-### Выбрать вариант любой и выполнить 10 заданий
+### Выбрать вариант любой и выполнить 10 заданий в файле <a href = "https://github.com/artemovsergey/WSR_2021/blob/master/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%A1%23/Zadachi.pdf">Задачи</a>
 
 ## 3 Windows Forms основы
 https://metanit.com/sharp/windowsforms/
