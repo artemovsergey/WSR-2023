@@ -13,3 +13,6 @@ https://www.evernote.com/shard/s300/sh/64fac59b-edcc-2cc9-a56e-67ba66fd057e/2aab
 
 ## 3 Windows Forms основы
 https://metanit.com/sharp/windowsforms/
+
+## 4 Windows Forms
+### Пройти учебник Осипова
