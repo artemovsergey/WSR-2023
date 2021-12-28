@@ -10,7 +10,7 @@ https://www.atlassian.com/ru/git/tutorials/learn-git-with-bitbucket-cloud
 ---
 
 ## 1 Подготовка по базам данных
-### Прочитать книгу Осипова
+### Прочитать книгу Осипова. Книга даст общее понимание про базы данных.
 ### Просмотреть курсы https://disk.yandex.ru/d/ObrMuo3lH1LBiQ
 
 ---
@@ -25,4 +25,4 @@ https://metanit.com/sharp/windowsforms/
 ---
 
 ## 4 Windows Forms
-### Пройти учебник Осипова
+### Пройти учебник Осипова по основам windows Forms. Особенно посмотреть практическую работу 10 по работе с базой данных. 
