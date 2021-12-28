@@ -76,6 +76,85 @@ using MySql.Data.MySqlClient.
                 Console.WriteLine("Сеанс работы с базой данных завершен!");
             }
 ```
+## Применение DataReader при подключении к MySQL
+
+string MyConString = "SERVER=localhost;" +"DATABASE=mydatabase;" 
+        "UID=testuser;" +"PASSWORD=testpassword;";
+    MySqlConnection connection = new MySqlConnection(MyConString);
+    MySqlCommand command = connection.CreateCommand();
+    MySqlDataReader Reader;
+    command.CommandText = "select * from mycustomers";
+    connection.Open();
+    Reader = command.ExecuteReader();
+    while (Reader.Read())
+    {
+        string thisrow = "";                
+        for (int i = 0;i<Reader.FieldCount;i++)     
+            thisrow += Reader.GetValue(i).ToString() + ","; 
+        listBox1.Items.Add(thisrow);
+    }
+    connection.Close(); 
+    
+ 
+ ## Вспомогательный метод Load Data
+ 
+ public void Load_Data()
+        {
+
+            try
+            {
+
+                string connection = @"server=localhost;userid=root;password=root;database=test_data";
+                MySqlConnection connect = new MySqlConnection(connection);
+                connect.Open();
 
 
+
+                MySqlCommand cmd = connect.CreateCommand();
+                cmd.CommandText = "select * from materials";
+
+                //MySqlCommand query = new MySqlCommand("select * from materials", connect);
+
+                //string result = query.ExecuteScalar().ToString();
+
+                //MySqlDataReader result_array = query.ExecuteReader();
+
+
+
+                //while (result_array.Read())
+                //textBox1.Text = result_array[1].ToString();
+
+
+                // Dataset settings
+
+
+
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataSet dataset = new DataSet();
+                adapter.Fill(dataset);
+
+                dataGridView1.DataSource = dataset.Tables[0];
+
+                adapter.Update(dataset);
+
+                DataView materialDataView = new DataView(dataset.Tables[0]);
+                dataGridView1.DataSource = materialDataView;
+
+                // Присвоения исходного порядка сортировки
+                materialDataView.Sort = Sort.Text;
+                materialDataView.RowFilter = Filter.Text;
+
+            }
+            catch
+            {
+                MessageBox.Show("Не удалось подключиться к базе данных!");
+                throw;
+
+            }
+        }
+ 
+ 
+ 
+    
+    
 
