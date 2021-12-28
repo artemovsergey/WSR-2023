@@ -3,6 +3,9 @@
 
 ## План работы и что надо научиться делать
 https://www.evernote.com/shard/s300/sh/64fac59b-edcc-2cc9-a56e-67ba66fd057e/2aab59d756e7d605154545b376b4fcf9
+### Git
+https://www.atlassian.com/ru/git/tutorials/learn-git-with-bitbucket-cloud
+
 
 ---
 
