@@ -35,7 +35,7 @@ https://metanit.com/sharp/windowsforms/
 Cначала надо прописать в директивах
 using MySql.Data.MySqlClient. 
 Для этого надо убедиться, что в ссылках установлен пакет NuGet. который называется Mysql Data
-
+```
             try
             {
 
@@ -75,7 +75,7 @@ using MySql.Data.MySqlClient.
             {
                 Console.WriteLine("Сеанс работы с базой данных завершен!");
             }
-
+```
 
 
 
