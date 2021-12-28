@@ -77,7 +77,7 @@ using MySql.Data.MySqlClient.
             }
 ```
 ## Применение DataReader при подключении к MySQL
-
+```
 string MyConString = "SERVER=localhost;" +"DATABASE=mydatabase;" 
         "UID=testuser;" +"PASSWORD=testpassword;";
     MySqlConnection connection = new MySqlConnection(MyConString);
@@ -94,7 +94,7 @@ string MyConString = "SERVER=localhost;" +"DATABASE=mydatabase;"
         listBox1.Items.Add(thisrow);
     }
     connection.Close(); 
-    
+``` 
  
  ## Вспомогательный метод Load Data
  
