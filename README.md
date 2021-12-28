@@ -26,3 +26,57 @@ https://metanit.com/sharp/windowsforms/
 
 ## 4 Windows Forms
 ### Пройти учебник Осипова по основам windows Forms. Особенно посмотреть практическую работу 10 по работе с базой данных. 
+
+
+
+## Справка по командам
+### Подключение MySql в проекта Windows Forms
+
+Cначала надо прописать в директивах
+using MySql.Data.MySqlClient. 
+Для этого надо убедиться, что в ссылках установлен пакет NuGet. который называется Mysql Data
+
+
+try
+            {
+
+                // create connection
+                string mysql = @"server=localhost;userid=root;password=root;database=test_data";
+                MySqlConnection connect = new MySqlConnection(mysql);
+                connect.Open();
+
+
+
+                // create query
+                string sql = "select * from billing";
+                MySqlCommand query = new MySqlCommand(sql, connect);
+
+                string result = query.ExecuteScalar().ToString();
+
+                MySqlDataReader result1 = query.ExecuteReader();
+
+                while (result1.Read())
+                {
+                    TextBox.Text = ($"{result1[0]}");
+                    Console.WriteLine(result1[0].ToString());
+                }
+                result1.Close();
+
+
+                //TextBox.Text = ($"{result}");
+                connect.Close();
+            }
+
+            catch
+            {
+                TextBox.Text = ($"Не удалось подключиться к базе данных");
+            }
+
+            finally
+            {
+                Console.WriteLine("Сеанс работы с базой данных завершен!");
+            }
+
+
+
+
