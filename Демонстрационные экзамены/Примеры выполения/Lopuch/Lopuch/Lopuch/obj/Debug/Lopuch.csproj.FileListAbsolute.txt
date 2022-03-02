@@ -1,0 +1,53 @@
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\Lopuch.exe.config
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\Lopuch.exe
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\Lopuch.pdb
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.Form1.resources
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.Properties.Resources.resources
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.GenerateResource.cache
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.CoreCompileInputs.cache
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.exe
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.pdb
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\EntityFramework.dll
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\EntityFramework.SqlServer.dll
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\EntityFramework.xml
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\EntityFramework.SqlServer.xml
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\bin\Debug\ru\EntityFramework.resources.dll
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.CopyComplete
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.Form2NewProduct.resources
+Z:\2021_2022 учебный год\32ИС\Учебная практика\Теслер\Lopuch\Lopuch\obj\Debug\Lopuch.csprojAssemblyReference.cache
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\Lopuch.exe.config
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\Lopuch.exe
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\Lopuch.pdb
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.dll
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.xml
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.AssemblyReference.cache
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.SuggestedBindingRedirects.cache
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.Form1.resources
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.Form2NewProduct.resources
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.Properties.Resources.resources
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.GenerateResource.cache
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.CoreCompileInputs.cache
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.CopyComplete
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.exe
+C:\Users\artik\Desktop\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.pdb
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\Lopuch.exe.config
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\Lopuch.exe
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\Lopuch.pdb
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.dll
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.SqlServer.dll
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.xml
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\EntityFramework.SqlServer.xml
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\bin\Debug\ru\EntityFramework.resources.dll
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.AssemblyReference.cache
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.SuggestedBindingRedirects.cache
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.Form1.resources
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.Form2NewProduct.resources
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.Properties.Resources.resources
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.GenerateResource.cache
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.CoreCompileInputs.cache
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.csproj.CopyComplete
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.exe
+F:\Dropbox\WSR_2022\Демонстрационные экзамены\Примеры выполения\Lopuch\Lopuch\Lopuch\obj\Debug\Lopuch.pdb

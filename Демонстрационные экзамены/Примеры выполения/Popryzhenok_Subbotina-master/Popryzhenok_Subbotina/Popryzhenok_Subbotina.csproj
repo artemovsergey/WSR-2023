@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73A41324-1AB9-4956-9EB9-F03114E6D3BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Popryzhenok_Subbotina</RootNamespace>
+    <AssemblyName>Popryzhenok_Subbotina</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Попрыженок.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\Tables\PageAddAgent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Tables\AgentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Usage\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Tables\PageAddAgent.xaml.cs">
+      <DependentUpon>PageAddAgent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tables\AgentPage.xaml.cs">
+      <DependentUpon>AgentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Usage\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\picture.png" />
+    <Resource Include="agents\agent_1.png" />
+    <Resource Include="agents\agent_10.png" />
+    <Resource Include="agents\agent_100.png" />
+    <Resource Include="agents\agent_101.png" />
+    <Resource Include="agents\agent_102.png" />
+    <Resource Include="agents\agent_103.png" />
+    <Resource Include="agents\agent_104.png" />
+    <Resource Include="agents\agent_105.png" />
+    <Resource Include="agents\agent_106.png" />
+    <Resource Include="agents\agent_107.png" />
+    <Resource Include="agents\agent_108.png" />
+    <Resource Include="agents\agent_109.png" />
+    <Resource Include="agents\agent_11.png" />
+    <Resource Include="agents\agent_110.png" />
+    <Resource Include="agents\agent_111.png" />
+    <Resource Include="agents\agent_112.png" />
+    <Resource Include="agents\agent_113.png" />
+    <Resource Include="agents\agent_114.png" />
+    <Resource Include="agents\agent_115.png" />
+    <Resource Include="agents\agent_116.png" />
+    <Resource Include="agents\agent_117.png" />
+    <Resource Include="agents\agent_118.png" />
+    <Resource Include="agents\agent_119.png" />
+    <Resource Include="agents\agent_12.png" />
+    <Resource Include="agents\agent_120.png" />
+    <Resource Include="agents\agent_121.png" />
+    <Resource Include="agents\agent_122.png" />
+    <Resource Include="agents\agent_123.png" />
+    <Resource Include="agents\agent_124.png" />
+    <Resource Include="agents\agent_125.png" />
+    <Resource Include="agents\agent_126.png" />
+    <Resource Include="agents\agent_127.png" />
+    <Resource Include="agents\agent_128.png" />
+    <Resource Include="agents\agent_129.png" />
+    <Resource Include="agents\agent_13.png" />
+    <Resource Include="agents\agent_130.png" />
+    <Resource Include="agents\agent_14.png" />
+    <Resource Include="agents\agent_15.png" />
+    <Resource Include="agents\agent_16.png" />
+    <Resource Include="agents\agent_17.png" />
+    <Resource Include="agents\agent_18.png" />
+    <Resource Include="agents\agent_19.png" />
+    <Resource Include="agents\agent_2.png" />
+    <Resource Include="agents\agent_20.png" />
+    <Resource Include="agents\agent_21.png" />
+    <Resource Include="agents\agent_22.png" />
+    <Resource Include="agents\agent_23.png" />
+    <Resource Include="agents\agent_24.png" />
+    <Resource Include="agents\agent_25.png" />
+    <Resource Include="agents\agent_26.png" />
+    <Resource Include="agents\agent_27.png" />
+    <Resource Include="agents\agent_28.png" />
+    <Resource Include="agents\agent_29.png" />
+    <Resource Include="agents\agent_3.png" />
+    <Resource Include="agents\agent_30.png" />
+    <Resource Include="agents\agent_31.png" />
+    <Resource Include="agents\agent_32.png" />
+    <Resource Include="agents\agent_33.png" />
+    <Resource Include="agents\agent_34.png" />
+    <Resource Include="agents\agent_35.png" />
+    <Resource Include="agents\agent_36.png" />
+    <Resource Include="agents\agent_37.png" />
+    <Resource Include="agents\agent_38.png" />
+    <Resource Include="agents\agent_39.png" />
+    <Resource Include="agents\agent_4.png" />
+    <Resource Include="agents\agent_40.png" />
+    <Resource Include="agents\agent_41.png" />
+    <Resource Include="agents\agent_42.png" />
+    <Resource Include="agents\agent_43.png" />
+    <Resource Include="agents\agent_44.png" />
+    <Resource Include="agents\agent_45.png" />
+    <Resource Include="agents\agent_46.png" />
+    <Resource Include="agents\agent_47.png" />
+    <Resource Include="agents\agent_48.png" />
+    <Resource Include="agents\agent_49.png" />
+    <Resource Include="agents\agent_5.png" />
+    <Resource Include="agents\agent_50.png" />
+    <Resource Include="agents\agent_51.png" />
+    <Resource Include="agents\agent_52.png" />
+    <Resource Include="agents\agent_53.png" />
+    <Resource Include="agents\agent_54.png" />
+    <Resource Include="agents\agent_55.png" />
+    <Resource Include="agents\agent_56.png" />
+    <Resource Include="agents\agent_57.png" />
+    <Resource Include="agents\agent_58.png" />
+    <Resource Include="agents\agent_59.png" />
+    <Resource Include="agents\agent_6.png" />
+    <Resource Include="agents\agent_60.png" />
+    <Resource Include="agents\agent_61.png" />
+    <Resource Include="agents\agent_62.png" />
+    <Resource Include="agents\agent_63.png" />
+    <Resource Include="agents\agent_64.png" />
+    <Resource Include="agents\agent_65.png" />
+    <Resource Include="agents\agent_66.png" />
+    <Resource Include="agents\agent_67.png" />
+    <Resource Include="agents\agent_68.png" />
+    <Resource Include="agents\agent_69.png" />
+    <Resource Include="agents\agent_7.png" />
+    <Resource Include="agents\agent_70.png" />
+    <Resource Include="agents\agent_71.png" />
+    <Resource Include="agents\agent_72.png" />
+    <Resource Include="agents\agent_73.png" />
+    <Resource Include="agents\agent_74.png" />
+    <Resource Include="agents\agent_75.png" />
+    <Resource Include="agents\agent_76.png" />
+    <Resource Include="agents\agent_77.png" />
+    <Resource Include="agents\agent_78.png" />
+    <Resource Include="agents\agent_79.png" />
+    <Resource Include="agents\agent_8.png" />
+    <Resource Include="agents\agent_80.png" />
+    <Resource Include="agents\agent_81.png" />
+    <Resource Include="agents\agent_82.png" />
+    <Resource Include="agents\agent_83.png" />
+    <Resource Include="agents\agent_84.png" />
+    <Resource Include="agents\agent_85.png" />
+    <Resource Include="agents\agent_86.png" />
+    <Resource Include="agents\agent_87.png" />
+    <Resource Include="agents\agent_88.png" />
+    <Resource Include="agents\agent_89.png" />
+    <Resource Include="agents\agent_9.png" />
+    <Resource Include="agents\agent_90.png" />
+    <Resource Include="agents\agent_91.png" />
+    <Resource Include="agents\agent_92.png" />
+    <Resource Include="agents\agent_93.png" />
+    <Resource Include="agents\agent_94.png" />
+    <Resource Include="agents\agent_95.png" />
+    <Resource Include="agents\agent_96.png" />
+    <Resource Include="agents\agent_97.png" />
+    <Resource Include="agents\agent_98.png" />
+    <Resource Include="agents\agent_99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Попрыженок.ico" />
+    <Resource Include="Images\Попрыженок.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryPopryzhenok\ClassLibraryPopryzhenok.csproj">
+      <Project>{8DC78BD9-1A41-4B09-AD78-543C2F177920}</Project>
+      <Name>ClassLibraryPopryzhenok</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
