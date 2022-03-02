@@ -208,8 +208,6 @@ private void textBox1_KeyPress_1(object sender, KeyPressEventArgs e)
 ```
 
  ## Сохранение и открытие файла
- 
- ![image](./gifs/SaveOpen.gif)
 
  ```C#
  namespace SaveFile
@@ -271,8 +269,6 @@ private void textBox1_KeyPress_1(object sender, KeyPressEventArgs e)
  ```
 
  ## Печать файла
-
- ![gif](./gifs/Print.gif)
 
 ```C#
         string s;
@@ -360,8 +356,6 @@ private void textBox1_KeyPress_1(object sender, KeyPressEventArgs e)
 
  ## Открытие справки или документации
 
-![help_gif](./gifs/Help.gif)
-
  ```C#
         private void button1_Click(object sender, EventArgs e)
         {
@@ -388,8 +382,6 @@ LOAD DATA LOCAL INFILE 'C:/Users/artik/Desktop/productmaterial_b_import.csv' INT
 ---
 
 ## Работа с DataAdapter
-
-![adapter_gif](./gifs/DataAdapter.gif)
 
 ```C#
 
@@ -719,8 +711,6 @@ private void DataAdapter_Load(object sender, EventArgs e)
 
 ### Экспорт в Exсel
 
-![export_gif](./gifs/Export.gif)
-
 ```C#
 
 private void button1_Click(object sender, EventArgs e)
@@ -793,10 +783,6 @@ private void button1_Click(object sender, EventArgs e)
 
 ### Загрузка данных из Excel
 
-![import_gif](./gifs/Import.gif)
-
-
-
 ```C#
 
 private void button1_Click(object sender, EventArgs e)
@@ -835,8 +821,6 @@ private void button1_Click(object sender, EventArgs e)
 
 ### CRUD in DataGridView
 
-
-![crud_gif](./gifs/CRUD.gif)
 ```C#
 
 public partial class CRUD : Form
@@ -922,7 +906,6 @@ public partial class CRUD : Form
 
 ### Автозаполнение поля в DataGridView
 
-![auto_gif](./gifs/Auto.gif)
 
 ```C#
 
