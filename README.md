@@ -55,7 +55,7 @@ https://disk.yandex.ru/d/gcqNGLGLzrxPOQ
 
 **Вариация:** MAUI(MVVM) + MySQL + WPF Toolkit
 
-**Усложненая архитектура:** MAUI(MVVM) + API + MSSQL + Fontawesome
+**Усложненная архитектура:** MAUI(MVVM) + API + MSSQL + Fontawesome
 
 **Микросервисная архитектура:** ASP Core API + PostgreSQL + VueJS(web) + MAUI(client) + Electron(client) + Android(client) (maybe remote api on VPS or db on Cloud)
 
