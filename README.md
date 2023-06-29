@@ -8,11 +8,6 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
  
-# Сессия 1
-
-https://disk.yandex.ru/d/gcqNGLGLzrxPOQ
-
-
 # Презентация
 Составить презентацию о себе, 10 слайдов
 
